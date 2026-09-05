@@ -1,39 +1,38 @@
-# To-Do List (Qt / C++)
+To-Do List (Qt / C++)
 
 A small desktop to-do list app built with **C++17** and **Qt Widgets**. Tasks are checkable, completed tasks get a strike-through, and everything is saved to disk automatically so your list is still there next time you open the app.
 
-![screenshot placeholder](docs/screenshot.png)
-*(swap this in once you have a screenshot!)*
+<img width="532" height="664" alt="Screenshot 2026-09-05 at 2 30 57 AM" src="https://github.com/user-attachments/assets/7ed1f62d-fa45-4732-886b-af000b3df98d" />
 
-## Features
+
 - Add tasks by typing and pressing Enter (or clicking "Add")
 - Check off tasks — completed ones get a strike-through
 - Delete selected tasks
 - Tasks persist automatically between sessions (saved as JSON)
 
-## Tech
+Tech
 - C++17
 - Qt 5 or Qt 6 (Widgets module)
 - CMake for building
 
-## Building it yourself
+Building it yourself
 
-### 1. Install Qt
+1. Install Qt
 
-**macOS (Homebrew):**
+macOS (Homebrew):
 ```bash
 brew install qt cmake
 ```
 
-**Ubuntu/Debian:**
+Ubuntu/Debian:
 ```bash
 sudo apt install qtbase5-dev cmake build-essential
 ```
 
-**Windows:**
+Windows:
 Download the [Qt online installer](https://www.qt.io/download-qt-installer) and install Qt + the "Desktop" component, plus [CMake](https://cmake.org/download/).
 
-### 2. Build
+2. Build
 
 ```bash
 git clone https://github.com/MTomachi/todo-qt.git
@@ -43,14 +42,14 @@ cmake ..
 cmake --build .
 ```
 
-### 3. Run
+ 3. Run
 
 ```bash
 ./TodoApp        # Linux/macOS
 TodoApp.exe      # Windows
 ```
 
-## Project structure
+Project structure
 ```
 todo-qt/
 ├── CMakeLists.txt
