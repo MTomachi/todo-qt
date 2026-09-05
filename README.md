@@ -2,6 +2,8 @@ To-Do List (Qt / C++)
 
 A small desktop to-do list app built with **C++17** and **Qt Widgets**. Tasks are checkable, completed tasks get a strike-through, and everything is saved to disk automatically so your list is still there next time you open the app.
 
+<img width="532" height="664" alt="Screenshot 2026-09-05 at 2 30 57 AM" src="https://github.com/user-attachments/assets/c1b809c8-a1f6-4a21-bef5-562abca89341" />
+
 Features
 - Add tasks by typing and pressing Enter (or clicking "Add")
 - Check off tasks — completed ones get a strike-through
